@@ -9,9 +9,12 @@ public class CourierLoginResponse {
 
     private String id;
 
-    public  CourierLoginResponse(){};
+    public CourierLoginResponse() {
+    }
 
-    public CourierLoginResponse(String id){
+    ;
+
+    public CourierLoginResponse(String id) {
         this.id = id;
     }
 }

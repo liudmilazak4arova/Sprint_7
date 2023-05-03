@@ -82,7 +82,7 @@ public class OrderCreateRequest {
     }
 
     public OrderCreateRequest() {
-      }
+    }
 
     public OrderCreateRequest(String firstName, String lastName, String address, String metroStation, String phone, int rentTime, String deliveryDate, String comment, String[] color) {
         this.firstName = firstName;
